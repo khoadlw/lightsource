@@ -429,7 +429,29 @@ pre code { font-size: 15px !important; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
-.banner img { display: block; margin-left: auto; margin-right: auto; }
+@font-face { font-family: sofia-pro; src: url("../assets/fonts/Sofia_Pro_Regular.otf"); }
+
+@font-face { font-family: sofia-pro; src: url("../assets/fonts/Sofia_Pro_Bold.otf"); font-weight: bold; }
+
+@font-face { font-family: sofia-pro; src: url("../assets/fonts/Sofia_Pro_Regular_Italic.otf"); font-style: italic, oblique; }
+
+@font-face { font-family: sofia-pro; src: url("../assets/fonts/Sofia_Pro_Bold_Italic.otf"); font-weight: bold; font-style: italic, oblique; }
+
+header { text-align: center; }
+
+header a { font-weight: normal; border-bottom: none; }
+
+header nav ul { margin-left: 0; }
+
+header nav ul li { display: inline; margin: 0 5px; }
+
+header nav ul li a { color: #808080; }
+
+header nav ul li a:hover { color: #000; }
+
+header section.header-title { font-family: sofia-pro, 'Segoe UI', Roboto, sans-serif; font-size: 2rem; line-height: 2; }
+
+header section.header-title h2 { text-align: center; }
 
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
 
