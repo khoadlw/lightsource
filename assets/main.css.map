@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss"
+	],
+	"sourcesContent": [
+		"@font-face {\r\n    font-family: sofia-pro;\r\n    src: url(\"../assets/fonts/Sofia_Pro_Regular.otf\");\r\n}\r\n@font-face {\r\n    font-family: sofia-pro;\r\n    src: url(\"../assets/fonts/Sofia_Pro_Bold.otf\");\r\n    font-weight: bold;\r\n}\r\n@font-face {\r\n    font-family: sofia-pro;\r\n    src: url(\"../assets/fonts/Sofia_Pro_Regular_Italic.otf\");\r\n    font-style: italic, oblique;\r\n}\r\n@font-face {\r\n    font-family: sofia-pro;\r\n    src: url(\"../assets/fonts/Sofia_Pro_Bold_Italic.otf\");\r\n    font-weight: bold;\r\n    font-style: italic, oblique;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,UAAU,GACN,WAAW,EAAE,SAAS,EACtB,GAAG,EAAE,4CAA4C;;AAErD,UAAU,GACN,WAAW,EAAE,SAAS,EACtB,GAAG,EAAE,yCAAyC,EAC9C,WAAW,EAAE,IAAI;;AAErB,UAAU,GACN,WAAW,EAAE,SAAS,EACtB,GAAG,EAAE,mDAAmD,EACxD,UAAU,EAAE,eAAe;;AAE/B,UAAU,GACN,WAAW,EAAE,SAAS,EACtB,GAAG,EAAE,gDAAgD,EACrD,WAAW,EAAE,IAAI,EACjB,UAAU,EAAE,eAAe"
+}
