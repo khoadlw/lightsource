@@ -30,38 +30,39 @@
 
 header {
     text-align: center;
-}
 
-header a {
-    font-weight: normal;
-    border-bottom: none;
-}
+    a {
+        font-weight: normal;
+        border-bottom: none;
+        text-decoration: none;
+    }
 
-header nav ul {
-    margin-left: 0;
-}
-  
-header nav ul li {
-    display: inline;
-    margin: 0 5px;
-}
-  
-header nav ul li a {
-    color: #808080;
-}
-  
-header nav ul li a:hover {
-    color: #000;
-}
+    nav ul {
+        margin-left: 0;
 
-header section.header-title {
-    font-family: sofia-pro, 'Segoe UI', Roboto, sans-serif;
-    font-size: 2rem;
-    line-height: 2;
-}
-  
-header section.header-title h2 {
-    text-align: center;
+        li {
+            display: inline;
+            margin: 0 5px;
+        
+            a {
+                color: #808080;
+
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    section.header-title {
+        font-family: sofia-pro, 'Segoe UI', Roboto, sans-serif;
+        font-size: 2rem;
+        line-height: 2;
+
+        h2 {
+            text-align: center;
+        }
+    }
 }
 
 
