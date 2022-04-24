@@ -439,7 +439,7 @@ pre code { font-size: 15px !important; }
 
 header { text-align: center; }
 
-header a { font-weight: normal; border-bottom: none; }
+header a { font-weight: normal; border-bottom: none; text-decoration: none; }
 
 header nav ul { margin-left: 0; }
 
