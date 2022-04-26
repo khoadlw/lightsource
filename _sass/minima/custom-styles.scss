@@ -29,7 +29,7 @@
 }
 
 body {
-    background: #efefef;
+    background: #efefef !important;
 }
 
 header {
@@ -72,6 +72,7 @@ header {
 
 .narrow-list {
     width: 40%;
+    margin: auto;
 }
 
 // https://codepen.io/nxworld/pen/OJVJQme
