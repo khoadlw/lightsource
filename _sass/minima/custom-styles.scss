@@ -70,14 +70,24 @@ header {
     }
 }
 
+.blog-title-link {
+    font-size: 40px;
+    text-decoration-line: none;
+}
+
 .narrow-list {
-    width: 40%;
+    width: 60%;
     margin: auto;
+    margin-top: 2em;
+}
+
+.post-item-title {
+    margin-top: 0.5em;
 }
 
 // https://codepen.io/nxworld/pen/OJVJQme
 .neumorphic {
-    padding: 1em 1em;
+    padding: 1em 1.5em;
     background: #efefef;
     border: none;
     border-radius: .5rem;

@@ -3,7 +3,11 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 
     <section class="header-title">
-        <h1><a href="{{ site.baseurl }}/">{{ site.title | escape }}</a></h1>
+        <h1>
+            <a class="blog-title-link" href="{{ site.baseurl }}/">
+                {{ site.title | escape }}
+            </a>
+        </h1>
     </section>
 
     <nav>
