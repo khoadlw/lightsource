@@ -28,6 +28,14 @@
     font-style: italic, oblique;
 }
 
+@media only screen and (max-width: 600px) {
+    .narrow-list {
+        width: 100%;
+        margin: auto;
+        margin-top: 2em;
+    }
+}
+
 body {
     background: #efefef !important;
 }
@@ -75,6 +83,10 @@ header {
     text-decoration-line: none;
 }
 
+.blog-title-link:hover {
+    text-decoration-line: none;
+}
+
 .narrow-list {
     width: 60%;
     margin: auto;
@@ -82,7 +94,7 @@ header {
 }
 
 .post-item-title {
-    margin-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 // https://codepen.io/nxworld/pen/OJVJQme
