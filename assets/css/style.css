@@ -437,6 +437,8 @@ pre code { font-size: 15px !important; }
 
 @font-face { font-family: sofia-pro; src: url("../assets/fonts/Sofia_Pro_Bold_Italic.otf"); font-weight: bold; font-style: italic, oblique; }
 
+@media only screen and (max-width: 600px) { .narrow-list { width: 100%; margin: auto; margin-top: 2em; } }
+
 body { background: #efefef !important; }
 
 header { text-align: center; }
@@ -457,9 +459,11 @@ header section.header-title h2 { text-align: center; }
 
 .blog-title-link { font-size: 40px; text-decoration-line: none; }
 
+.blog-title-link:hover { text-decoration-line: none; }
+
 .narrow-list { width: 60%; margin: auto; margin-top: 2em; }
 
-.post-item-title { margin-top: 0.5em; }
+.post-item-title { padding-bottom: 0.5em; }
 
 .neumorphic { padding: 1em 1.5em; background: #efefef; border: none; border-radius: .5rem; outline: none; cursor: pointer; transition: .2s ease-in-out; box-shadow: -6px -6px 14px rgba(255, 255, 255, 0.7), -6px -6px 10px rgba(255, 255, 255, 0.5), 6px 6px 8px rgba(255, 255, 255, 0.075), 6px 6px 10px rgba(0, 0, 0, 0.15); }
 
